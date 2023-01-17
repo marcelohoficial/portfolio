@@ -3,8 +3,103 @@
 @tailwind utilities;
 
 body {
-  background-color: #ddd;
+  background-color: #1f1f47;
 }
 input#search {
-  background: white url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 97% center;
+  background: white
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 97% center;
+}
+
+.dzunxg {
+  position: relative;
+  top: 30px;
+  left: -30px;
+  perspective: 5000px;
+  perspective-origin: left bottom;
+  transform-style: flat;
+}
+
+.dzunxg img {
+  opacity: 0;
+  animation: 1s ease 0s 1 normal forwards running jBcSpD;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-name: jBcSpD;
+}
+
+@-webkit-keyframes jBcSpD {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} /*!sc*/
+@keyframes jBcSpD {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} /*!sc*/
+data-styled.g1154[id="sc-keyframes-jBcSpD"] {
+  content: "jBcSpD,";
+} /*!sc*/
+@-webkit-keyframes eoUyJr {
+  from {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+} /*!sc*/
+@keyframes eoUyJr {
+  from {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+} /*!sc*/
+data-styled.g1164[id="sc-keyframes-eoUyJr"] {
+  content: "eoUyJr,";
+} /*!sc*/
+@-webkit-keyframes gWpsBT {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} /*!sc*/
+@keyframes gWpsBT {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} /*!sc*/
+data-styled.g1165[id="sc-keyframes-gWpsBT"] {
+  content: "gWpsBT,";
+} /*!sc*/
+
+@media (min-width: 450px) .dzunxg > * {
+  transform: rotateY(-20deg) rotateX(20deg);
+  transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
 }
