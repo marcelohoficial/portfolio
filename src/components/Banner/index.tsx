@@ -27,42 +27,45 @@ export default function Banner() {
             debitis?
           </span>
         </div>
-        <div id="images" className="w-3/5 p-4 dzunxg">
-          <Image
-            src="/images/banners/1mockup-card2.svg"
-            alt="Banner"
-            width={100}
-            height={100}
-            className="dzunxg"
-          />
-          <Image
-            src="/images/banners/2mockup-card2.svg"
-            alt="Banner"
-            width={100}
-            height={100}
-            className="dzunxg"
-          />
+        <div id="images" className="w-3/5 p-4 flex flex-col dzunxg">
+          <div className="flex pl-4">
+            <Image
+              src="/images/banners/1mockup-card2.svg"
+              alt="Banner"
+              width={163}
+              height={100}
+            />
+            <Image
+              src="/images/banners/2mockup-card2.svg"
+              alt="Banner"
+              width={163}
+              height={100}
+              className="mt-4 ml-10"
+            />
+          </div>
           <Image
             src="/images/banners/3mockup-content.svg"
             alt="Banner"
-            width={100}
-            height={100}
-            className="dzunxg"
+            width={681}
+            height={408}
+            className="-mt-8 self-center"
           />
-          <Image
-            src="/images/banners/4mockup2-bg.svg"
-            alt="Banner"
-            width={100}
-            height={100}
-            className="dzunxg"
-          />
-          <Image
-            src="/images/banners/5mockup3-bg.svg"
-            alt="Banner"
-            width={100}
-            height={100}
-            className="dzunxg"
-          />
+          <div id="footer" className="flex -mt-60 z-10">
+            <Image
+              src="/images/banners/4mockup2-bg.svg"
+              alt="Banner"
+              width={394}
+              height={253}
+              className="-ml-10"
+            />
+            <Image
+              src="/images/banners/5mockup3-bg.svg"
+              alt="Banner"
+              width={394}
+              height={253}
+              className=""
+            />
+          </div>
         </div>
       </div>
     </>

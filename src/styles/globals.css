@@ -99,7 +99,13 @@ data-styled.g1165[id="sc-keyframes-gWpsBT"] {
   content: "gWpsBT,";
 } /*!sc*/
 
-@media (min-width: 450px) .dzunxg > * {
+.dzunxg > * {
   transform: rotateY(-20deg) rotateX(20deg);
   transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+.dzunxg:hover > * {
+  transform: none;
+}
+.dzunxg:hover #footer {
+  margin-top: -13rem;
 }
