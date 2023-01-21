@@ -1,5 +1,6 @@
 // import axios from "axios";
 // import { GetStaticProps } from "next";
+import About from "../components/About";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
 
@@ -8,6 +9,7 @@ export default function Home(props: any) {
     <>
       <Header />
       <Banner />
+      <About />
     </>
   );
 }

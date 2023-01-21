@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <>
-      <div
+      <header
         id="header"
         className="flex justify-around w-screen h-16 
         border-b-[1px] border-b-indigo-500 shadow-sm shadow-indigo-400"
@@ -16,7 +16,7 @@ export default function Header() {
             <li>Menu</li>
           </ul>
         </div>
-      </div>
+      </header>
     </>
   );
 }

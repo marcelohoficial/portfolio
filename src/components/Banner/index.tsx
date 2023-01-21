@@ -11,7 +11,10 @@ export default function Banner() {
 
   return (
     <>
-      <div id="banner" className="flex text-white w-screen min-h-screen">
+      <div
+        id="banner"
+        className="flex text-white w-screen min-h-screen border-b-2"
+      >
         <div id="description" className="w-1/2 pl-10 pt-20 min-h-full">
           <h2 className="text-6xl">
             Design and Code with{" "}
