@@ -14,6 +14,7 @@ export default function Design() {
       </div>
       <div className="w-full h-full">
         <Image
+          alt={"site"}
           src="/images/templateFigma.png"
           width={700}
           height={600}
@@ -21,6 +22,7 @@ export default function Design() {
         />
         <div className="bg-red-700 w-full h-1/2">
           <Image
+            alt={"site"}
             src="/images/site1.png"
             width={700}
             height={600}
@@ -29,6 +31,7 @@ export default function Design() {
         </div>
         <div className="bg-green-400">
           <Image
+            alt={"site"}
             src="/images/site2.png"
             width={700}
             height={600}
