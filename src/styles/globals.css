@@ -14,11 +14,6 @@ input#search {
     no-repeat 97% center;
 }
 
-//Dev
-.portPrototipos {
-  background: url("/images/sites.png") fixed;
-}
-
 .tech-card2 {
   width: 335px;
   height: 220px;
@@ -128,3 +123,25 @@ input#search {
 data-styled.g1154[id="sc-keyframes-jBcSpD"] {
   content: "jBcSpD,";
 } /*!sc*/
+
+.comp-kjig6vic {
+  position: sticky;
+  sticky-top: 24.9%;
+  is-sticky: 1;
+  top: 40px;
+  z-index: 20;
+}
+
+.comp-kjig6vicm {
+  position: sticky;
+  sticky-top: 24.9%;
+  is-sticky: 1;
+  top: 72px;
+}
+
+.comp-kjig6vicmn {
+  position: sticky;
+  sticky-top: 24.9%;
+  is-sticky: 1;
+  top: 100px;
+}

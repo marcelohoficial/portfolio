@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         // galaxy: "url('/background-galaxy.png')",
         webPortfolio: "url('/images/sites.png')",
+        templateFigma: "url('/images/templateFigma.png')",
         "nlw-gradient":
           "linear-gradient(89.86deg, #9572FC 18.08%, #43E7AD 85.94%, #E1D55D 12.57%)",
         "top-gradient":

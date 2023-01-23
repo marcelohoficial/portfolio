@@ -2,6 +2,8 @@
 // import { GetStaticProps } from "next";
 import About from "../components/About";
 import Banner from "../components/Banner";
+import Design from "../components/Design";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 export default function Home(props: any) {
@@ -10,6 +12,8 @@ export default function Home(props: any) {
       <Header />
       <Banner />
       <About />
+      <Design />
+      <Footer />
     </>
   );
 }
