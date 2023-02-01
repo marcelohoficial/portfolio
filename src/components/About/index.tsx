@@ -7,23 +7,24 @@ export default function About() {
 
   return (
     <section id="sobre" className="w-screen flex flex-col items-center p-20">
-      <h2 className="text-4xl font-bold">O desenvolvedor</h2>
+      <h2 className="text-4xl font-bold">Sobre Mim</h2>
       <p className="px-20 py-4 text-justify">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque dolor
-        tenetur expedita fugit atque beatae quos aliquam iusto a eligendi enim
-        aperiam, ad dolorum, soluta aliquid sint corrupti illo placeat? Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Beatae consequuntur
-        blanditiis impedit earum rem! Quis temporibus esse vitae possimus
-        dolores rem, aut dicta sapiente dolore officia laboriosam eos minima
-        vero. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
-        recusandae error, nobis, exercitationem minima aperiam nostrum eum
-        maxime reprehenderit, esse sequi tempore facere cupiditate. Ratione
-        dolorem vero quibusdam quos labore!
+        Durante toda minha carreira passei por várias etapas de evolução,
+        iniciando na tecnologia como Design Gráfico, fui expandindo para UI e UX
+        Design, segui estudando desenvolvimento até aparecer oportunidades
+        profissionais na área, atualmente sou Desenvolvedor Full Stack na
+        empresa, usamos várias tecnologias para desenvolver soluções modernas.
+        Apaixonado por tecnologia e desenvolvimento, gosto de desafios e novas
+        descobertas, busco pensar fora da caixa, ser uma pessoa melhor a cada
+        oportunidade.
       </p>
       <div id="technologs" className="flex my-4">
         <ul className="list-none flex flex-row w-full justify-between">
           {tech.map((t) => (
-            <li key={t.name} className="tech-card">
+            <li
+              key={t.name}
+              className="tech-card flex justify-center items-center"
+            >
               {t.name}
             </li>
           ))}
@@ -34,13 +35,11 @@ export default function About() {
         className="bg-webPortfolio bg-fixed bg-cover w-screen h-[600px]"
       >
         <div className="p-20 h-full bg-top-gradient">
-          <h2 className="text-4xl">Discovery Discovery Discovery Discovery</h2>
-          <p className="text-md mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
-            fugiat amet, vel qui sapiente, incidunt veritatis fugit quas harum
-            quod molestias accusamus rerum expedita officiis aliquam inventore
-            itaque est sunt.
-          </p>
+          <h2 className="text-4xl">Uma galeria cheia de orgulho.</h2>
+          <div className="w-fit bg-white rounded-full px-6 py-1 text-black mt-4 hover:opacity-95 cursor-pointer">
+            Em breve
+          </div>
+          <p className="text-md mt-2 w-3/5"></p>
         </div>
       </div>
     </section>

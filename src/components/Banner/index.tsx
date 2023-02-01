@@ -15,22 +15,16 @@ export default function Banner() {
         id="banner"
         className="flex text-white w-screen min-h-screen border-b-2"
       >
-        <div id="description" className="w-1/2 pl-10 pt-20 min-h-full">
-          <h2 className="text-6xl">
-            Design and Code with{" "}
-            <span className="animate-pulse font-bold">React</span> to apps.
+        <div id="description" className="w-1/2 pl-10 pt-40 min-h-full">
+          <h2 className="text-5xl">
+            Desenvolvendo, muito
+            <span className="animate-pulse font-bold"> Código</span> e sonhos.
           </h2>
-          <p className="mt-2 text-md font-medium text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
-            minus accusantium rerum, nam pariatur? Aperiam ea impedit ducimus
-            ipsa maxime molestiae aspernatur nobis iusto modi? Consectetur
-            numquam modi ratione!
+          <p className="mt-2 text-md font-bold text-justify">
+            Um universo de possibilidades, com uma infinidade de recusos.
           </p>
           <span className="mt-2 text-sm font-light text-justify">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
-            a, praesentium deleniti cum soluta quos, ut voluptate doloribus eum
-            illo, similique quas corporis? Nam suscipit ullam neque nemo? Nulla,
-            debitis?
+            Idealizar, projetar e codar.
           </span>
         </div>
         <div id="images" className="w-2/3 pl-4 flex flex-col dzunxg">
